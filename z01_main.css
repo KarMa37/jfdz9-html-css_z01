@@ -1,0 +1,141 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #eee;
+    color: #222;
+}
+
+.all {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 10px;
+    color: #eee;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+.main {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+    color: #eee;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #181818;
+    padding: 5px 0;
+    top: 0;
+    width: 75%;
+    text-align: center;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.p-left {
+    width: 70%;
+    display: inline-block;
+}
+
+.p-right {
+    width: 70%;
+    display: inline-block;
+    float: right;
+}
+
+.img-right {
+    float: right;
+    width: 30%;
+}
+
+.img-left {
+    float: left;
+}
+
+section {
+    clear: both;
+    min-height: 450px;
+}
+
+.img-sticky {
+    position: sticky;
+    top: 1rem;
+}
+
+.navbar li:first-child {
+    background: #8f746c;
+    border-radius: 4px;
+}
+
+.navbar li:not(:first-child) * {
+    color: #fff;
+}
+
+section p::first-letter {
+    color: red;
+    font-size: 400%;
+    line-height: 1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+footer a {
+    transition: opacity 2s;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    opacity: .5;
+    color: red;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1512384743941-3244fbcebc36?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f39392245b1117890f81039633459f&auto=format&fit=crop&w=1073&q=80");
+    background-size: cover;
+}
